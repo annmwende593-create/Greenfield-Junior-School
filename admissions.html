@@ -1,28 +1,89 @@
 <!DOCTYPE html>
-<html>
-<head><title>Admissions - Greenfield</title><link rel="stylesheet" href="style.css"></head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions | Greenfield Junior School</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
+
 <header>
-    <div class="logo">🎓 Greenfield Junior School</div>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="academics.html">Academics</a>
-        <a href="admissions.html" class="active">Admissions</a>
-        <a href="contact.html">Contact Us</a>
-    </nav>
+    <h1>Greenfield Junior School</h1>
+    <p>Growing Minds, Building Futures</p>
 </header>
-<div class="container" style="display:block;">
-    <h1>Admissions 2026</h1><br>
-    <p><b>Requirements:</b></p>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="academics.html">Academics</a>
+    <a href="admissions.html">Admissions</a>
+    <a href="contact.html">Contact Us</a>
+</nav>
+
+<main class="container">
+    <h2>Admissions</h2>
+
+    <p>
+        Greenfield Junior School welcomes applications from parents
+        and guardians seeking quality education for their children.
+    </p>
+
+    <h3>Admission Requirements</h3>
+    <ul>
+        <li>A completed application form.</li>
+        <li>A copy of the learner's birth certificate.</li>
+        <li>Previous school reports, where applicable.</li>
+        <li>Passport-size photographs of the learner.</li>
+        <li>Parent or guardian contact information.</li>
+    </ul>
+
+    <h3>Application Procedure</h3>
     <ol>
-        <li>Birth Certificate Copy</li>
-        <li>Previous School Report (if transferring)</li>
-        <li>2 Passport Photos</li>
-        <li>Admission Fee: Ksh 2,000</li>
-    </ol><br>
-    <button class="btn-green" onclick="alert('Admission form downloaded!')">Download Admission Form</button>
-</div>
-<footer>© 2026 Greenfield Junior School</footer>
+        <li>Visit the school or contact the administration.</li>
+        <li>Obtain and complete the admission application form.</li>
+        <li>Submit the required documents.</li>
+        <li>Attend an assessment or interview if required.</li>
+        <li>Receive admission confirmation from the school.</li>
+    </ol>
+
+    <h3>Student Application Form</h3>
+
+    <form id="admissionForm">
+        <label for="studentName">Student's Full Name:</label>
+        <input type="text" id="studentName" required>
+
+        <label for="studentAge">Student's Age:</label>
+        <input type="number" id="studentAge" min="3" max="18" required>
+
+        <label for="grade">Class Applying For:</label>
+        <select id="grade" required>
+            <option value="">Select Class</option>
+            <option>Pre-Primary</option>
+            <option>Grade 1</option>
+            <option>Grade 2</option>
+            <option>Grade 3</option>
+            <option>Grade 4</option>
+            <option>Grade 5</option>
+            <option>Grade 6</option>
+        </select>
+
+        <label for="parentName">Parent/Guardian Name:</label>
+        <input type="text" id="parentName" required>
+
+        <label for="parentEmail">Parent/Guardian Email:</label>
+        <input type="email" id="parentEmail" required>
+
+        <button type="submit">Submit Application</button>
+    </form>
+
+    <p id="formMessage" aria-live="polite"></p>
+</main>
+
+<footer>
+    <p>&copy; 2026 Greenfield Junior School.</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
