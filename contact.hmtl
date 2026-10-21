@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact Us</title>
-<link rel="stylesheet" href="style.css">
-</head>
+<head><title>Contact Us - Greenfield</title><link rel="stylesheet" href="style.css"></head>
 <body>
 <header>
-<h1>Greenfield Junior School</h1>
-<nav>
-<a href="index.html">Home</a>
-<a href="about.html">About Us</a>
-<a href="academics.html">Academics</a>
-<a href="admissions.html">Admissions</a>
-<a href="contact.html">Contact Us</a>
-</nav>
+    <div class="logo">🎓 Greenfield Junior School</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="academics.html">Academics</a>
+        <a href="admissions.html">Admissions</a>
+        <a href="contact.html" class="active">Contact Us</a>
+    </nav>
 </header>
-<section class="content">
-<h2>Contact Us</h2>
-<p><strong>Location:</strong> Along Kiambu Road, Nairobi</p>
-<p><strong>Phone:</strong> 0712 345 678</p>
-<p><strong>Email:</strong> info@greenfieldjunior.ac.ke</p>
-<form onsubmit="return validateForm()">
-<input type="text" id="name" placeholder="Your Name">
-<input type="email" id="email" placeholder="Your Email">
-<textarea placeholder="Your Message"></textarea>
-<button type="submit">Send Message</button>
-</form>
-</section>
-<footer><p>&copy; 2026 Greenfield Junior School</p></footer>
-<script src="script.js"></script>
+<div class="container" style="display:block;">
+    <h1>Contact Us</h1><br>
+    <form onsubmit="return validateForm()">
+        <label>Name:</label><br><input type="text" id="name" style="width:100%;padding:10px;margin:5px 0"><br>
+        <label>Email:</label><br><input type="email" id="email" style="width:100%;padding:10px;margin:5px 0"><br>
+        <label>Message:</label><br><textarea id="message" style="width:100%;padding:10px;height:100px;margin:5px 0"></textarea><br>
+        <button type="submit" class="btn-green">Send Message</button>
+    </form>
+</div>
+<footer>© 2026 Greenfield Junior School</footer>
+<script>
+function validateForm(){
+    let n = document.getElementById('name').value;
+    let e = document.getElementById('email').value;
+    if(n=="" || e==""){ alert("Please fill in your name and email"); return false; }
+    alert("Message sent successfully! We will contact you soon.");
+    return false;
+}
+</script>
 </body>
 </html>
