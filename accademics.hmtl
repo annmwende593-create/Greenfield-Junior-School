@@ -1,27 +1,84 @@
 <!DOCTYPE html>
-<html>
-<head><title>Academics - Greenfield</title><link rel="stylesheet" href="style.css"></head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academics | Greenfield Junior School</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
+
 <header>
-    <div class="logo">🎓 Greenfield Junior School</div>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="academics.html" class="active">Academics</a>
-        <a href="admissions.html">Admissions</a>
-        <a href="contact.html">Contact Us</a>
-    </nav>
+    <h1>Greenfield Junior School</h1>
+    <p>Growing Minds, Building Futures</p>
 </header>
-<div class="container" style="display:block;">
-    <h1>Our Academics (CBC Curriculum)</h1><br>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="academics.html">Academics</a>
+    <a href="admissions.html">Admissions</a>
+    <a href="contact.html">Contact Us</a>
+</nav>
+
+<main class="container">
+    <h2>Our Academic Programme</h2>
+
+    <p>
+        We provide a balanced education that encourages learners
+        to develop knowledge, practical skills and positive values.
+    </p>
+
+    <h3>Classes Offered</h3>
     <ul>
-        <li><b>Early Years:</b> Playgroup, PP1, PP2</li><br>
-        <li><b>Lower Primary:</b> Grade 1, 2, 3 - Literacy, Numeracy, Environmental Activities</li><br>
-        <li><b>Upper Primary:</b> Grade 4, 5, 6 - Mathematics, Science, Social Studies, Agriculture</li><br>
-        <li><b>Junior School:</b> Grade 7, 8, 9 - Integrated Science, Pre-Technical Studies, Life Skills</li>
+        <li>Pre-Primary</li>
+        <li>Grade 1</li>
+        <li>Grade 2</li>
+        <li>Grade 3</li>
+        <li>Grade 4</li>
+        <li>Grade 5</li>
+        <li>Grade 6</li>
     </ul>
-    <br><p>We also offer: Computer Studies, Music, Sports, and French.</p>
-</div>
-<footer>© 2026 Greenfield Junior School</footer>
+
+    <h3>Learning Areas</h3>
+
+    <div class="cards">
+        <div class="card">
+            <h4>Languages</h4>
+            <p>English, Kiswahili and communication skills.</p>
+        </div>
+
+        <div class="card">
+            <h4>Mathematics</h4>
+            <p>Numeracy, logical thinking and problem-solving.</p>
+        </div>
+
+        <div class="card">
+            <h4>Science</h4>
+            <p>Scientific discovery, observation and experiments.</p>
+        </div>
+
+        <div class="card">
+            <h4>Creative Arts</h4>
+            <p>Music, drawing, painting and creative expression.</p>
+        </div>
+
+        <div class="card">
+            <h4>Physical Education</h4>
+            <p>Sports, fitness, teamwork and healthy living.</p>
+        </div>
+
+        <div class="card">
+            <h4>Social Studies</h4>
+            <p>Community, citizenship and environmental awareness.</p>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2026 Greenfield Junior School.</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
