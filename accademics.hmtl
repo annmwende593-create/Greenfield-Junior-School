@@ -1,37 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Academics</title>
-<link rel="stylesheet" href="style.css">
-</head>
+<head><title>Academics - Greenfield</title><link rel="stylesheet" href="style.css"></head>
 <body>
 <header>
-<h1>Greenfield Junior School</h1>
-<nav>
-<a href="index.html">Home</a>
-<a href="about.html">About Us</a>
-<a href="academics.html">Academics</a>
-<a href="admissions.html">Admissions</a>
-<a href="contact.html">Contact Us</a>
-</nav>
+    <div class="logo">🎓 Greenfield Junior School</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="academics.html" class="active">Academics</a>
+        <a href="admissions.html">Admissions</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
 </header>
-<section class="content">
-<h2>Academics</h2>
-<h3>Classes Offered:</h3>
-<ul>
-<li>Playgroup & PP1 - PP2</li>
-<li>Grade 1 - Grade 6</li>
-<li>Grade 7 - Grade 9 (Junior Secondary)</li>
-</ul>
-<h3>Learning Areas:</h3>
-<ul>
-<li>Mathematics, English, Kiswahili</li>
-<li>Science, Social Studies, CRE</li>
-<li>Creative Arts, Agriculture, Computer Studies</li>
-</ul>
-<img src="images/students.jpg" alt="Students Learning">
-</section>
-<footer><p>&copy; 2026 Greenfield Junior School</p></footer>
+<div class="container" style="display:block;">
+    <h1>Our Academics (CBC Curriculum)</h1><br>
+    <ul>
+        <li><b>Early Years:</b> Playgroup, PP1, PP2</li><br>
+        <li><b>Lower Primary:</b> Grade 1, 2, 3 - Literacy, Numeracy, Environmental Activities</li><br>
+        <li><b>Upper Primary:</b> Grade 4, 5, 6 - Mathematics, Science, Social Studies, Agriculture</li><br>
+        <li><b>Junior School:</b> Grade 7, 8, 9 - Integrated Science, Pre-Technical Studies, Life Skills</li>
+    </ul>
+    <br><p>We also offer: Computer Studies, Music, Sports, and French.</p>
+</div>
+<footer>© 2026 Greenfield Junior School</footer>
 </body>
 </html>
