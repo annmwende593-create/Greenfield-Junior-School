@@ -1,23 +1,63 @@
 <!DOCTYPE html>
-<html>
-<head><title>About Us - Greenfield</title><link rel="stylesheet" href="style.css"></head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Greenfield Junior School</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
+
 <header>
-    <div class="logo">🎓 Greenfield Junior School</div>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html" class="active">About Us</a>
-        <a href="academics.html">Academics</a>
-        <a href="admissions.html">Admissions</a>
-        <a href="contact.html">Contact Us</a>
-    </nav>
+    <h1>Greenfield Junior School</h1>
+    <p>Growing Minds, Building Futures</p>
 </header>
-<div class="container" style="display:block;">
-    <h1>About Greenfield Junior School</h1><br>
-    <p>Founded in 2010, Greenfield Junior School is committed to providing quality CBC education in Nairobi.</p><br>
-    <h3>Our Mission</h3><p>To nurture young minds and build bright futures through holistic education.</p><br>
-    <h3>Our Vision</h3><p>To be a leading junior school producing all-rounded learners.</p>
-</div>
-<footer>© 2026 Greenfield Junior School</footer>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="academics.html">Academics</a>
+    <a href="admissions.html">Admissions</a>
+    <a href="contact.html">Contact Us</a>
+</nav>
+
+<main class="container">
+    <h2>About Our School</h2>
+
+    <p>
+        Greenfield Junior School is a fictional learning institution
+        dedicated to providing quality education to young learners.
+        We aim to develop knowledgeable, responsible and confident
+        pupils who can contribute positively to society.
+    </p>
+
+    <h3>Our Mission</h3>
+    <p>
+        To provide quality, inclusive and learner-centred education
+        that develops pupils academically, socially and morally.
+    </p>
+
+    <h3>Our Vision</h3>
+    <p>
+        To become a leading junior school that nurtures responsible,
+        creative and lifelong learners.
+    </p>
+
+    <h3>Our Core Values</h3>
+    <ul>
+        <li>Discipline and responsibility</li>
+        <li>Honesty and integrity</li>
+        <li>Respect for others</li>
+        <li>Teamwork and cooperation</li>
+        <li>Creativity and innovation</li>
+        <li>Excellence in learning</li>
+    </ul>
+</main>
+
+<footer>
+    <p>&copy; 2026 Greenfield Junior School.</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
