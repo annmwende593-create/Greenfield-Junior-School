@@ -1,31 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Greenfield Junior School - Home</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenfield Junior School - Home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-<h1>Greenfield Junior School</h1>
-<nav>
-<a href="index.html">Home</a>
-<a href="about.html">About Us</a>
-<a href="academics.html">Academics</a>
-<a href="admissions.html">Admissions</a>
-<a href="contact.html">Contact Us</a>
-</nav>
-</header>
+    <!-- HEADER -->
+    <header>
+        <div class="logo">🎓 Greenfield Junior School</div>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="academics.html">Academics</a>
+            <a href="admissions.html">Admissions</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
 
-<section class="hero">
-<h2>Welcome to Greenfield Junior School</h2>
-<p>Nurturing Young Minds, Building Bright Futures</p>
-<img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b" alt="School Image" width="600">
-<button onclick="showMessage()">Click for Welcome Message</button>
-<p id="welcome-msg"></p>
-</section>
+    <!-- MAIN CONTENT -->
+    <div class="container">
+        <div class="left">
+            <h4>EST. 2010 • EXCELLENCE IN EDUCATION</h4>
+            <h1>Welcome to Greenfield Junior School</h1>
+            <p>Nurturing Young Minds, Building Bright Futures</p>
+            <div class="buttons">
+                <button class="btn-green" onclick="welcome()">Enroll Now ></button>
+                <button class="btn-white" onclick="learnMore()">Learn More</button>
+            </div>
+            <div class="features">
+                <span>🎓 Student-focused Learning</span>
+                <span>👥 K-8 Community</span>
+                <span>☆ Safe & Supportive Environment</span>
+            </div>
+        </div>
+        <div class="right">
+            <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800" alt="School Building">
+        </div>
+    </div>
 
-<footer><p>&copy; 2026 Greenfield Junior School</p></footer>
-<script src="script.js"></script>
+    <footer>
+        © 2026 Greenfield Junior School • 123 Oak Lane, Nairobi • info@greenfield.edu • (071) 123-4567
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
