@@ -1,6 +1,56 @@
-function welcome() {
-    alert("Thank you for visiting Greenfield Junior School! Admissions for 2026 are now open.");
+// Admission form interaction
+const admissionForm = document.getElementById("admissionForm");
+
+if (admissionForm) {
+    admissionForm.addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        const studentName =
+            document.getElementById("studentName").value.trim();
+
+        const grade =
+            document.getElementById("grade").value;
+
+        const formMessage =
+            document.getElementById("formMessage");
+
+        formMessage.textContent =
+            "Thank you, " + studentName +
+            "! Your application for " + grade +
+            " has been completed for this demonstration. " +
+            "Please contact the school to submit your application.";
+
+        admissionForm.reset();
+    });
 }
-function learnMore() {
-    alert("Greenfield Junior School - Nurturing young minds since 2010. Located in Nairobi.");
+
+
+// Contact form interaction
+const contactForm = document.getElementById("contactForm");
+
+if (contactForm) {
+    contactForm.addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        const name =
+            document.getElementById("name").value.trim();
+
+        const contactMessage =
+            document.getElementById("contactMessage");
+
+        contactMessage.textContent =
+            "Thank you, " + name +
+            "! Your message has been prepared successfully. " +
+            "This demonstration does not send emails.";
+
+        contactForm.reset();
+    });
+}
+
+
+// Welcome message on the home page
+if (window.location.pathname.endsWith("index.html") ||
+    window.location.pathname.endsWith("/")) {
+
+    console.log("Welcome to Greenfield Junior School!");
 }
