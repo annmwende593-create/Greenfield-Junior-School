@@ -5,11 +5,11 @@ if (admissionForm) {
     admissionForm.addEventListener("submit", function(event) {
         event.preventDefault();
 
-        const studentName =
-            document.getElementById("studentName").value.trim();
+        const Mary Ann =
+            document.getElementById("Mary Ann").value.trim();
 
         const grade =
-            document.getElementById("grade").value;
+            document.getElementById("grade 6").value;
 
         const formMessage =
             document.getElementById("formMessage");
@@ -33,7 +33,7 @@ if (contactForm) {
         event.preventDefault();
 
         const name =
-            document.getElementById("name").value.trim();
+            document.getElementById("Mary Ann").value.trim();
 
         const contactMessage =
             document.getElementById("contactMessage");
